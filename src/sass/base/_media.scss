@@ -1,0 +1,134 @@
+/* @media ( max-width: 1200px) */
+   
+@media ( max-width: 991px) {
+    .header {
+        margin-left: 5%;
+        max-width: 90%;
+        .header__logo {
+            img {
+                width: 85%;
+            }
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-right: 5%;
+        }
+        .promo__header {
+            font-size: 40px;
+            line-height: 40px;
+        }
+        .promo__subheader {
+            font-size: 22px;
+            line-height: 22px;
+        }
+        .button_main {
+            width: 250px;
+        }
+    }
+    .advantages {
+        .advantages__wrapper {
+            margin-left: 5%;
+            max-width: 90%;
+        }
+        .advantages__item {
+            max-width: 210px;
+        }
+    }
+}
+
+
+
+
+@media ( max-width: 767px) {
+    .header {
+        .header__phone {
+            font-size: 16px;
+        }
+        .header__official {
+            font-size: 13px;
+            span {
+                font-size: 15px;
+            }
+        }
+        .header__logo {
+            width: 200px;
+        }  
+    }
+    .promo {
+        .promo__header {
+            font-size: 35px;
+            line-height: 35px;
+        }
+        .promo__subheader {
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    .advantages {
+        .advantages__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        .advantages__item {
+            max-width: 240px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+    
+@media ( max-width: 575px) {
+    .promo {
+        .promo__wrapper {
+            align-items: center;
+            margin-right: 0;
+        }
+        .promo__icons {
+            flex-direction: column;
+            width: 90%;
+            margin-top: 50px;
+            align-items: center;
+        }
+        .promo__header {
+            text-align: center;
+        }
+        .promo__subheader {
+            text-align: center;
+        }
+        .button {
+            margin-top: 5px;
+            width: 160px;
+        }
+        .button_main {
+            margin: 0 auto;
+            margin-top: 60px;
+            width: 240px;
+        }
+        .promo__link {
+            margin: 0 auto;
+            margin-top: 18px;
+        }
+    }
+    .header {
+        flex-direction: column;
+        .header__logo {
+            img {
+                width: 100%;
+            }
+        }
+        .header__official {
+            margin-top: 20px;
+            font-size: 15px;
+            span {
+                font-size: 20px;
+            }
+        }
+        .header__phone {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    }
+    
+}
