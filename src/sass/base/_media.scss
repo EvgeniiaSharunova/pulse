@@ -35,6 +35,17 @@
             max-width: 210px;
         }
     }
+    .consultation {
+        .container {
+        padding-left: 5%;
+        }
+        .title_left {
+            font-size: 30px;
+        }
+        .consultation__descr {
+            margin-top: 50px;
+        }
+    }
 }
 
 
@@ -130,5 +141,22 @@
             font-size: 18px;
         }
     }
-    
+    .consultation {
+        .container {
+        padding-left: 0;
+        }
+        .title_left {
+            font-size: 23px;
+            text-align: center;
+        }
+        .consultation__descr {
+            font-size: 16px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 36px;
+        }
+    }
 }
