@@ -46,6 +46,35 @@
             margin-top: 50px;
         }
     }
+    .carousel {
+        .dots-style {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            button {
+                background: #eddfd477;
+                border: none;
+                border-radius: 50%;
+                font-size: 0;
+                height: 15px;
+                width: 15px;
+                margin: 5px;
+                outline: none;
+            }
+            }
+            .dots-style li[class="slick-active"] button {
+                background: $main_color;
+            }
+    }
+    .slick-slide {
+        img {
+            display: block;
+            width: 90%;
+            margin: 0 auto; 
+        }
+    }      
 }
 
 
@@ -85,6 +114,14 @@
             max-width: 240px;
             margin-bottom: 20px;
         }
+    }
+    .carousel {
+        .slick-dots {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }        
     }
 }
 
