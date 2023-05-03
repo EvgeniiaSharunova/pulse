@@ -162,6 +162,16 @@
             margin-bottom: 20px;
         }
     }
+    .footer {
+        .footer__info {
+            width: 400px;
+            height: 250px;
+            padding: 40px 39px 40px 39px;
+        }
+        .footer__addr {
+            font-size: 18px;
+        }
+    }
 }
 
 
@@ -265,6 +275,28 @@
         }
         .review__descr {
             text-align: center;
+        }
+    }
+    .footer {
+        .footer__info {
+            width: 100%;
+            padding: 30px 25px 30px 25px;
+        }
+    }
+    body {
+        .modal {
+            width: 85%;
+            padding: 38px 10px 40px 10px;
+            .modal__close {
+                right: -20px;
+                font-size: 25px;
+                line-height: 14px;
+            }
+        }
+    }
+    .overlay {
+        .feed-form {
+            width: 100%;
         }
     }
 }

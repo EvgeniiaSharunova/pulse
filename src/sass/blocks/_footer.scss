@@ -40,6 +40,9 @@
         border: 2px solid #ffffff;
         border-radius: 100%;
         margin: 0 15px;
+        &:hover {
+            box-shadow: 3px 3px 20px white;
+        }
     }
     &__social {
         display: flex;
