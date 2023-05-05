@@ -148,11 +148,14 @@
             transform: translateX(0%);
             transition: 0.5s all;
             padding-left: 19px;
-            margin-bottom: 0;
-            list-style-type: none;
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
+            }
+            ul {
+                padding-left: 0;
+                list-style-type: none;
+                margin-bottom: 0;  
             }
             li {
                 position: relative;
